@@ -10,7 +10,7 @@ body{
 }
 
 .menu{
-    background-image: url(./resources/images/bunner.jpg);
+    background-image: url(images/bunner.jpg);
     display: flex;
     flex-direction: column;
     justify-content: flex-start;

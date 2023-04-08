@@ -1,0 +1,135 @@
+body{
+    background-color: rgba(212, 102, 179, 0.356);
+}
+.header{
+    text-align: center;
+   color:rgb(145, 17, 92);
+    font-family:montserrat;
+    font-size: 24PX;
+    text-shadow: 5px 5px bisque;
+}
+
+.menu{
+    background-image: url(./resources/images/bunner.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  
+    position: relative;
+   
+    width: 100%;
+   align-content: flex-start;
+   align-items: center;
+  
+  min-height: 500px;
+  background-size: cover;
+}
+.menu_item ul{
+    display: flex;
+}
+.menu_item li{
+    padding:2rem;
+    list-style-type: none;
+}
+.menu_item a{
+    font-family: montserrat;
+    font-size: 24px;
+    color: rgb(145, 17, 92);
+    text-shadow: 3px 3px bisque;
+    text-decoration: none;
+}
+.menu_item a:hover{
+    color: aqua;
+    cursor: pointer;
+    
+    }
+
+.logo{
+    width: 3rem;
+    height: 3rem;
+}
+.logo img{
+    width: 3rem;
+    height: 3rem; 
+}
+#about_us{
+    font-family:Sofia Sans Condensed ;
+    font-size:24px ;
+    min-height: 300px;
+    margin: 2%;
+    letter-spacing: 2px;
+    
+    color:rgb(145, 17, 92);
+    }
+.gallery{
+    margin-left:1.5%;
+}
+.image_container{
+    display: flex;
+    align-content: center;
+ gap:10px;
+   flex-wrap: wrap;
+   
+}
+.image{
+    display: flex;
+    align-items: center;
+  
+   flex-wrap: wrap;
+}
+.image img{
+    max-width: 350px;
+    height: 350px;
+}
+@media only screen and (max-width: 600px){
+    .image_container{
+        align-items: center;
+        gap:30px;
+    }
+    .image img{
+        max-width: 450px;
+        height: auto;
+        
+    }
+    .menu_item ul{
+        display: flex;
+        flex-direction: column;
+       
+    }
+    .menu_item a{
+        color: rgb(8, 8, 61);
+        
+    }
+    .logo img{
+       display: none;
+    }
+   
+
+}
+footer{
+background-color: rgb(145, 17, 92);
+padding-bottom: 2rem;
+text-align: center;
+}
+footer h1{
+   color: rgb(212, 102, 179);
+   text-shadow: none;
+   font-size: 26px;
+   padding-top: 15px;
+}
+
+footer img{
+    width: 15px;
+    height: 15px;
+}
+.mail{
+    margin-left: 40px;
+}
+footer a{
+    color: aqua; 
+    letter-spacing: 1px;
+   text-align: center;
+ }
+ footer a:hover{
+     color: beige;
+ }
